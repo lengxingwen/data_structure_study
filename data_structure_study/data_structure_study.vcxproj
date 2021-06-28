@@ -151,7 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="data_structure_study.cpp" />
+    <ClCompile Include="data_structure_study.c" />
+    <ClCompile Include="first_lecture.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="first_lecture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
