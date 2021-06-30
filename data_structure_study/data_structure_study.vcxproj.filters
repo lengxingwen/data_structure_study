@@ -31,6 +31,18 @@
     <Filter Include="头文件\queue">
       <UniqueIdentifier>{ac590d02-3f79-4c93-9387-854d768c02f3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\polynomial">
+      <UniqueIdentifier>{1402117b-6782-4329-a43e-f3cd2d80a1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\polynomial">
+      <UniqueIdentifier>{8a6ff26b-fe90-4ffa-a2df-81aed3cf8245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tree">
+      <UniqueIdentifier>{cbd31ff7-6f0d-425f-9d8a-d3362f8a2989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tree">
+      <UniqueIdentifier>{4bfbb4b7-3004-4897-901b-c29655a46079}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="data_structure_study.c">
@@ -59,6 +71,18 @@
     </ClCompile>
     <ClCompile Include="queue_by_linked.c">
       <Filter>源文件\queue</Filter>
+    </ClCompile>
+    <ClCompile Include="polynomial.h">
+      <Filter>头文件\polynomial</Filter>
+    </ClCompile>
+    <ClCompile Include="polynomial.c">
+      <Filter>源文件\polynomial</Filter>
+    </ClCompile>
+    <ClCompile Include="isomorphism_tree.h">
+      <Filter>头文件\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="isomorphism.c">
+      <Filter>源文件\tree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

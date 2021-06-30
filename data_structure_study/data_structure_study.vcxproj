@@ -103,7 +103,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -153,8 +153,12 @@
   <ItemGroup>
     <ClCompile Include="data_structure_study.c" />
     <ClCompile Include="first_lecture.c" />
+    <ClCompile Include="isomorphism.c" />
+    <ClCompile Include="isomorphism_tree.h" />
     <ClCompile Include="linear_list_by_array.c" />
     <ClCompile Include="linear_list_by_linked.c" />
+    <ClCompile Include="polynomial.c" />
+    <ClCompile Include="polynomial.h" />
     <ClCompile Include="queue_by_array.c" />
     <ClCompile Include="queue_by_linked.c" />
     <ClCompile Include="stack_by_array.c" />
