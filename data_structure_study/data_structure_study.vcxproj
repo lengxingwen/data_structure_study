@@ -153,9 +153,23 @@
   <ItemGroup>
     <ClCompile Include="data_structure_study.c" />
     <ClCompile Include="first_lecture.c" />
+    <ClCompile Include="linear_list_by_array.c" />
+    <ClCompile Include="linear_list_by_linked.c" />
+    <ClCompile Include="queue_by_array.c" />
+    <ClCompile Include="queue_by_linked.c" />
+    <ClCompile Include="stack_by_array.c" />
+    <ClCompile Include="stack_by_linked.c" />
+    <ClCompile Include="two_stacks_by_one_array.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="first_lecture.h" />
+    <ClInclude Include="linear_list_by_array.h" />
+    <ClInclude Include="linear_list_by_linked.h" />
+    <ClInclude Include="queue_by_array.h" />
+    <ClInclude Include="queue_by_linked.h" />
+    <ClInclude Include="stack_by_array.h" />
+    <ClInclude Include="stack_by_linked.h" />
+    <ClInclude Include="two_stacks_by_one_array.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

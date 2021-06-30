@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\stack">
+      <UniqueIdentifier>{dfb9028b-9ef1-4749-9828-217c6b21bb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\list">
+      <UniqueIdentifier>{9c55028a-51ef-4aa5-bd22-b07ae675bf8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\list">
+      <UniqueIdentifier>{6fd765d9-f76c-4dec-af33-c300a91812a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\stack">
+      <UniqueIdentifier>{33ed03fb-64a8-4e11-9bc1-fa8b4785540c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\queue">
+      <UniqueIdentifier>{63451b15-a8d0-4c0a-9683-265642312a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\queue">
+      <UniqueIdentifier>{ac590d02-3f79-4c93-9387-854d768c02f3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="data_structure_study.c">
@@ -21,10 +39,52 @@
     <ClCompile Include="first_lecture.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="linear_list_by_array.c">
+      <Filter>源文件\list</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_list_by_linked.c">
+      <Filter>源文件\list</Filter>
+    </ClCompile>
+    <ClCompile Include="stack_by_array.c">
+      <Filter>源文件\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="two_stacks_by_one_array.c">
+      <Filter>源文件\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="stack_by_linked.c">
+      <Filter>源文件\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="queue_by_array.c">
+      <Filter>源文件\queue</Filter>
+    </ClCompile>
+    <ClCompile Include="queue_by_linked.c">
+      <Filter>源文件\queue</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="first_lecture.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_list_by_array.h">
+      <Filter>头文件\list</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_list_by_linked.h">
+      <Filter>头文件\list</Filter>
+    </ClInclude>
+    <ClInclude Include="stack_by_array.h">
+      <Filter>头文件\stack</Filter>
+    </ClInclude>
+    <ClInclude Include="two_stacks_by_one_array.h">
+      <Filter>头文件\stack</Filter>
+    </ClInclude>
+    <ClInclude Include="stack_by_linked.h">
+      <Filter>头文件\stack</Filter>
+    </ClInclude>
+    <ClInclude Include="queue_by_array.h">
+      <Filter>头文件\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="queue_by_linked.h">
+      <Filter>头文件\queue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
